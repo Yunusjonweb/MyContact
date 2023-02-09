@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to Css-->
+    <link rel="stylesheet" href="./css/index.css">
+    <!--Link to Font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Yunusbek Xabibullayev || Bog'lanish </title>
+</head>
+
+<body>
+    <div class="form_card">
+        <div class="from_info">
+            <img src="./img/photo_2023-01-13_22-54-14.jpg" alt="bu yerda rasim bor">
+            <h2 class="element"></h2>
+            <div class="icons">
+                <a href="https://t.me/yunusjoncodes_bot" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.instagram.com/programmer__web/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCdMGSUlyqDvz2TN_KOVgn6g" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="form">
+            <form action="" method="get">
+                <label for="fristName">Ismingiz:</label>
+                <input name="fristName" type="text" id="fristName" placeholder="Ismingiz" required>
+                <label for="fristEmail">Email manzilingiz:</label>
+                <input name="fristEmail" type="email" id="fristEmail" placeholder="Emailingiz" required>
+                <label for="fristPaassword">Parol manzilingiz:</label>
+                <input name="fristPaassword" type="password" placeholder="Parolingiz" id="fristPaassword" required>
+                <button type="submit" onclick="alicoder()" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./js/typed.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        // Can also be included with a regular script tag
+
+        let options = {
+            strings: ['Yunusbek Xabibullayev', 'Frontend Develeoper'],
+            typeSpeed:100,
+            startDelay: 2000,
+            backSpeed: 40,
+            loop:true
+        };
+
+        let typed = new Typed('.element', options);
+    </script>
+</body>
+
+</html>
